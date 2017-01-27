@@ -1,0 +1,16 @@
+{
+  "name": "mockforce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dummy-json": "^2.0.0",
+    "serverless": "^1.5.1",
+    "serverless-offline": "^3.8.3"
+  }
+}
