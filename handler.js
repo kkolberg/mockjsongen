@@ -34,18 +34,10 @@ var template = `
 `;
 
 var mock = dummyjson.parse(template);
-// module.exports.hello = (event, context, callback) => {
-//   const response = {
-//     statusCode: 200,
-//     body: mock
-//   };
 
-
-//   callback(null, response);
-
-// };
 fs.appendFileSync("data.json", "[");
-for (var i = 0; i < 100; i++) {
+for (var i = 0; i < 3500; i++) {
+  console.log(i);
   fs.appendFileSync("data.json", mock);
   if (i < 999) {
     fs.appendFileSync("data.json", ",");
